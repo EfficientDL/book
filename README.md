@@ -1,2 +1,3 @@
-# book-codelabs
+# book
 Codelabs
+Other resources
