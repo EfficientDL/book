@@ -8,9 +8,20 @@ We experimented with several data augmentation techniques. The results are descr
 
 ## Attempt 1
 ### Training Summary
-![image](https://user-images.githubusercontent.com/480644/134124955-17650e32-aaad-4dd5-b7cc-3fb4c55eb624.png)
-![image](https://user-images.githubusercontent.com/480644/134124964-0d9762f0-26b2-470b-9381-607cf7d98911.png)
-![image](https://user-images.githubusercontent.com/480644/134125025-fe9617cf-3ab1-4fe7-9612-5ba95302205a.png)
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/480644/134125333-cdeea1d4-bfd6-4790-9287-acf2174d4872.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/480644/134125400-40f87081-73d2-4fde-bbf0-f8491cd35535.png"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://user-images.githubusercontent.com/480644/134125025-fe9617cf-3ab1-4fe7-9612-5ba95302205a.png"></td>
+  </tr>
+</table>
 
 
 ## Attempt 2 []
+
+
+[Attempt 1 Accuracy]: https://user-images.githubusercontent.com/480644/134125333-cdeea1d4-bfd6-4790-9287-acf2174d4872.png
+[Attempt 1 Loss]: https://user-images.githubusercontent.com/480644/134125400-40f87081-73d2-4fde-bbf0-f8491cd35535.png
+[Attempt 1 Training]: https://user-images.githubusercontent.com/480644/134125025-fe9617cf-3ab1-4fe7-9612-5ba95302205a.png
