@@ -31,7 +31,8 @@ Regular training without any modifications to the dataset.
 </table>
 
 ## Attempt 2 [Pretrained Weights]
-We used the pretrained imagenet weights.
+* Pretrained Imagenet Weights
+* A dropout (0.33) layer prior to the softmax layer.
 <table>
   <thead>
     <tr>
