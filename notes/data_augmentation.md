@@ -8,39 +8,63 @@ We experimented with several data augmentation techniques. The results are descr
 * Base Model: Inception
 * Epochs: 30
 * Batch Size: 64
+* PreOps: Normalization and Resize (180x180)
+* Dataset: oxford_flowers102
 
 ## Attempt 1
-### Training Summary
+Regular training without any modifications to the dataset.
 <table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/480644/134125333-cdeea1d4-bfd6-4790-9287-acf2174d4872.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/480644/134125400-40f87081-73d2-4fde-bbf0-f8491cd35535.png"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><img src="https://user-images.githubusercontent.com/480644/134125025-fe9617cf-3ab1-4fe7-9612-5ba95302205a.png"></td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134125333-cdeea1d4-bfd6-4790-9287-acf2174d4872.png"></td>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134125400-40f87081-73d2-4fde-bbf0-f8491cd35535.png"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><p align="center"><img width="80%" src="https://user-images.githubusercontent.com/480644/134125025-fe9617cf-3ab1-4fe7-9612-5ba95302205a.png"></p></td>
+    </tr>
+  </tbody>
 </table>
 
 ## Attempt 2 [Pretrained Weights]
+We used the pretrained imagenet weights.
 <table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/480644/134286439-6dc30cf0-06e1-4ae9-bf07-7347130fa837.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/480644/134286492-ef1e5ba3-6618-4465-b3f3-14ca8c378f9f.png"></td>
-  </tr>
-  <tr>
-    <td colspan="2"><img src="https://user-images.githubusercontent.com/480644/134286368-eff2f839-cf62-431c-b0a5-c97f5026a93f.png"></td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134286439-6dc30cf0-06e1-4ae9-bf07-7347130fa837.png"></td>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134286492-ef1e5ba3-6618-4465-b3f3-14ca8c378f9f.png"></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134286368-eff2f839-cf62-431c-b0a5-c97f5026a93f.png"></td>
+    </tr>
+  </tbody>
 </table>
 
 ## Attempt X [...]
 <table>
-  <tr>
-    <td><img src=""></td>
-    <td><img src=""></td>
-  </tr>
-  <tr>
-    <td colspan="2"><img src=""></td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><img width="60%" src=""></td>
+      <td align="center"><img width="60%" src=""></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src=""></td>
+    </tr>
+  </tbody>
 </table>
 
 
