@@ -21,8 +21,28 @@ We experimented with several data augmentation techniques. The results are descr
   </tr>
 </table>
 
+## Attempt 2 [Pretrained Weights]
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/480644/134286439-6dc30cf0-06e1-4ae9-bf07-7347130fa837.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/480644/134286492-ef1e5ba3-6618-4465-b3f3-14ca8c378f9f.png"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://user-images.githubusercontent.com/480644/134286368-eff2f839-cf62-431c-b0a5-c97f5026a93f.png"></td>
+  </tr>
+</table>
 
-## Attempt 2 []
+## Attempt X [...]
+<table>
+  <tr>
+    <td><img src=""></td>
+    <td><img src=""></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src=""></td>
+  </tr>
+</table>
+
 
 
 [Attempt 1 Accuracy]: https://user-images.githubusercontent.com/480644/134125333-cdeea1d4-bfd6-4790-9287-acf2174d4872.png
