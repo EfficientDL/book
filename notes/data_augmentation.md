@@ -73,6 +73,30 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
+## Attempt 4 [RandAugment]
+* Pretrained Imagenet Weights
+* A dropout (0.33) layer prior to the softmax layer.
+* RandAugment: N=3, M=9
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134322539-5c08c45b-efd7-4ea7-962e-3c076354f057.png"></td>
+    </tr>
+    <tr>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134323136-4e510e97-b69e-47f1-a1b2-428dba603881.png"></td>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134323271-81393bfd-5f69-4778-9b6d-738995443efe.png"></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134323028-8e6dce27-8357-4dfb-804d-b827ab267ef3.png"></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Attempt X [...]
 <table>
   <thead>
@@ -81,6 +105,9 @@ Regular training without any modifications to the dataset.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src=""></td>
+    </tr>
     <tr>
       <td align="center"><img width="60%" src=""></td>
       <td align="center"><img width="60%" src=""></td>
