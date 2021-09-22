@@ -50,6 +50,29 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
+## Attempt 3 [Basic Augmentations]
+* Pretrained Imagenet Weights
+* A dropout (0.33) layer prior to the softmax layer.
+* Training With Augmentations: RandomContrast(.7), RandomZoom(height_factor=(-.4, 0)
+* Epochs: 100
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134291501-2e726cae-8529-4043-b041-433b0f3e2975.png"></td>
+    <tr>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134291707-da960dd4-3f01-4323-b657-69fa05719873.png"></td>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134291785-26b1672d-e41c-4191-881c-79fcb4154772.png"></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134291600-c0fd7902-c860-49df-9dde-6f901725e919.png"></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Attempt X [...]
 <table>
   <thead>
