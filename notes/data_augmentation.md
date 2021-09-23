@@ -97,6 +97,30 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
+## Attempt 4 [With a Dense 124 Layer]
+* Pretrained Imagenet Weights
+* Inception=>Dropout(0.33)=>Dense(124)=>Dropout(0.33)=>Softmax()
+* RandAugment: N=3, M=9
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134459907-0e48c10e-9687-4057-a317-96d57e19900e.png"></td>
+    </tr>
+    <tr>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134459971-40c0d977-610f-4db3-9f38-365b46da79d9.png"></td>
+      <td align="center"><img width="60%" src="https://user-images.githubusercontent.com/480644/134460023-4177f38d-b04c-4c64-b9ca-c9c1ba4f922e.png"></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134459833-4a4a2ae1-6d16-4355-9a52-63b969206690.png"></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Attempt X [...]
 <table>
   <thead>
