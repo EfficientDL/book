@@ -104,7 +104,8 @@ Regular training without any modifications to the dataset.
 * Pretrained Imagenet Weights
 * Inception=>Dropout(0.33)=>Dense(124)=>Dropout(0.33)=>Softmax()
 * RandAugment: N=3, M=9
-* Epochs: 30 + 70
+* Epochs: 30 + 70 + 50
+* Batch Sizes: 128, 128, 64, 32 
 <table>
   <thead>
     <tr>
@@ -116,19 +117,22 @@ Regular training without any modifications to the dataset.
       <td align="center" colspan="2"><img width="80%" src="https://user-images.githubusercontent.com/480644/134459907-0e48c10e-9687-4057-a317-96d57e19900e.png"></td>
     </tr>
     <tr>
-      <td align="center">
-        <img width="30%" src="https://user-images.githubusercontent.com/480644/134459971-40c0d977-610f-4db3-9f38-365b46da79d9.png">
-        <img width="30%" src="https://user-images.githubusercontent.com/480644/134463287-fbfbbdbe-bc65-42b4-bd3e-069558f0fa87.png">
+      <td align="right">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134459971-40c0d977-610f-4db3-9f38-365b46da79d9.png">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134463287-fbfbbdbe-bc65-42b4-bd3e-069558f0fa87.png">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134466375-12d9ee37-457b-497b-8fa6-60243abace98.png">
       </td>
-      <td align="center">
-        <img width="30%" src="https://user-images.githubusercontent.com/480644/134460023-4177f38d-b04c-4c64-b9ca-c9c1ba4f922e.png">
-        <img width="30%" src="https://user-images.githubusercontent.com/480644/134463486-bc0bb0d2-b7df-4cdb-a5a8-e782237c7315.png">
+      <td align="left">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134460023-4177f38d-b04c-4c64-b9ca-c9c1ba4f922e.png">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134463486-bc0bb0d2-b7df-4cdb-a5a8-e782237c7315.png">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134466475-87c309b7-34bd-47b8-93bb-b020787dd7e3.png">
       </td>
     </tr>
     <tr>
       <td align="center" colspan="2">
         <img width="80%" src="https://user-images.githubusercontent.com/480644/134459833-4a4a2ae1-6d16-4355-9a52-63b969206690.png">
         <img width="80%" src="https://user-images.githubusercontent.com/480644/134464101-6e26d49a-91e6-4ba8-b8c7-3cec1aaf0f5d.png">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134466201-8b8b11ad-359d-40ca-87d4-7114ee83cfd3.png">
       </td>
     </tr>
   </tbody>
