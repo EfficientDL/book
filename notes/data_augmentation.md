@@ -222,6 +222,7 @@ Regular training without any modifications to the dataset.
 * Pretrained Imagenet Weights
 * Inception=>Softmax()
 * RandAugment: N=3, M=9
+* Image Size: 224
 * Epochs: 30
 * Batch Sizes: 128
 <table>
@@ -250,6 +251,44 @@ Regular training without any modifications to the dataset.
     <tr>
       <td align="center" colspan="2">
         <img width="80%" src="https://user-images.githubusercontent.com/480644/134651494-9830b6ed-0329-478e-819e-2c33877b43a3.png">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Attempt 6 [MobileNet]
+* Pretrained Imagenet Weights
+* MobileNet=>Softmax()
+* RandAugment: N=3, M=9
+* Image Size: 224
+* Epochs: 30
+* Batch Sizes: 128
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">
+        Training Summary
+        <sub><a href="https://www.dropbox.com/sh/ojlzwnpask60w7t/AAD5LnV5HAqPZK8egghXL6y1a?dl=0">[link]</a></sub>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134656443-c641a413-19ef-49c9-8de4-64afbb64cc94.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134656643-40ba98fb-27a7-4936-82a4-7f22c9d04757.png">
+      </td>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134656726-379ef1e6-a5a7-4cf1-8699-53f5fdcc60e2.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134656540-eaef7c3d-9da0-4b67-98bd-9a1d7a207d63.png">
       </td>
     </tr>
   </tbody>
@@ -288,9 +327,3 @@ Regular training without any modifications to the dataset.
     </tr>
   </tbody>
 </table>
-
-
-
-[Attempt 1 Accuracy]: https://user-images.githubusercontent.com/480644/134125333-cdeea1d4-bfd6-4790-9287-acf2174d4872.png
-[Attempt 1 Loss]: https://user-images.githubusercontent.com/480644/134125400-40f87081-73d2-4fde-bbf0-f8491cd35535.png
-[Attempt 1 Training]: https://user-images.githubusercontent.com/480644/134125025-fe9617cf-3ab1-4fe7-9612-5ba95302205a.png
