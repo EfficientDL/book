@@ -138,7 +138,7 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
-## Attempt X [With a Dense 512 Layer]
+## Attempt 5 [With a Dense 512 Layer]
 * Pretrained Imagenet Weights
 * Inception=>Dropout(0.33)=>Dense(512)=>Dropout(0.33)=>Softmax()
 * RandAugment: N=3, M=9
@@ -167,6 +167,40 @@ Regular training without any modifications to the dataset.
     <tr>
       <td align="center" colspan="2">
         <img width="80%" src="https://user-images.githubusercontent.com/480644/134617440-46ee26a1-ccf1-4a21-9dc1-10bb76bb4bc8.png">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Attempt 6 [With a Dense 4096 Layer]
+* Pretrained Imagenet Weights
+* Inception=>Dropout(0.33)=>Dense(4096)=>Dropout(0.33)=>Softmax()
+* RandAugment: N=3, M=9
+* Epochs: 30
+* Batch Sizes: 128
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134619640-c995cc38-27b2-483b-b70d-d5c6c7c8845a.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134619777-162440ae-a61f-4963-8f45-fed2670129a3.png">
+      </td>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134619857-bfe7ddad-c783-49e5-84c6-d028f65a9e0c.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134619675-cc5bdaf6-99a1-47ee-b332-32119c4a0fcb.png">
       </td>
     </tr>
   </tbody>
