@@ -109,7 +109,10 @@ Regular training without any modifications to the dataset.
 <table>
   <thead>
     <tr>
-      <th align="center" colspan="2">Training Summary</th>
+      <th align="center" colspan="2">
+        Training Summary
+        <sub><a href="https://www.dropbox.com/sh/fvgbdks5qajhuyl/AAB94fe1XvmNFa_m1I0Pfc6va?dl=0">[link]</a></sub>
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -147,7 +150,10 @@ Regular training without any modifications to the dataset.
 <table>
   <thead>
     <tr>
-      <th align="center" colspan="2">Training Summary</th>
+      <th align="center" colspan="2">
+        Training Summary
+        <sub><a href="https://www.dropbox.com/sh/3tjmf0zboiqagvb/AADOOQBL3cWFuSUkbJ_0zh_ga?dl=0">[link]</a></sub>
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -181,7 +187,10 @@ Regular training without any modifications to the dataset.
 <table>
   <thead>
     <tr>
-      <th align="center" colspan="2">Training Summary</th>
+      <th align="center" colspan="2">
+        Training Summary
+        <sub><a href="https://www.dropbox.com/sh/o93xwm98yzwlagp/AACJQdgCcuc3S6VnEM3DC3xfa?dl=0">[link]</a></sub>
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -209,11 +218,51 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
+## Attempt 6 [Image Size: 224]
+* Pretrained Imagenet Weights
+* Inception=>Softmax()
+* RandAugment: N=3, M=9
+* Epochs: 30
+* Batch Sizes: 128
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">
+        Training Summary
+        <sub><a href="https://www.dropbox.com/sh/vdj6f9wz2hfjvej/AACZ1aKB6Y3hi5klzUkKCjzXa?dl=0">[link]</a></sub>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134651371-fea14d5e-5b52-4c4f-bf1c-0b8bfa134c01.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134651589-96d8f9f5-5775-4c28-b054-e359880f9123.png">
+      </td>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134651673-ee19c4d4-538d-4da6-8f9e-9ac8b9780b4a.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134651494-9830b6ed-0329-478e-819e-2c33877b43a3.png">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Attempt X [...]
 <table>
   <thead>
     <tr>
-      <th align="center" colspan="2">Training Summary</th>
+      <th align="center" colspan="2">
+        Training Summary
+        <sub><a href="">[link]</a></sub>
+      </th>
     </tr>
   </thead>
   <tbody>
