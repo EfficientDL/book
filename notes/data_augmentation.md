@@ -138,6 +138,40 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
+## Attempt X [With a Dense 512 Layer]
+* Pretrained Imagenet Weights
+* Inception=>Dropout(0.33)=>Dense(512)=>Dropout(0.33)=>Softmax()
+* RandAugment: N=3, M=9
+* Epochs: 30 + 70
+* Batch Sizes: 128, 128
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">Training Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134617257-e9e68975-9758-4afd-8564-42fdeb05c200.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134617501-81f8fe43-e6ee-4900-bfb1-b00fc4d5a44a.png">
+      </td>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134617543-dc539bdb-fea2-48ff-9d21-aabc27e4907c.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134617440-46ee26a1-ccf1-4a21-9dc1-10bb76bb4bc8.png">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Attempt X [...]
 <table>
   <thead>
@@ -147,14 +181,24 @@ Regular training without any modifications to the dataset.
   </thead>
   <tbody>
     <tr>
-      <td align="center" colspan="2"><img width="80%" src=""></td>
+      <td align="center" colspan="2">
+        <img width="80%" src="">
+      </td>
     </tr>
     <tr>
-      <td align="center"><img width="60%" src=""></td>
-      <td align="center"><img width="60%" src=""></td>
+      <td align="center">
+        <img width="60%" src="">
+        <img width="40%" src="">
+      </td>
+      <td align="center">
+        <img width="60%" src="">
+        <img width="40%" src="">
+      </td>
     </tr>
     <tr>
-      <td align="center" colspan="2"><img width="80%" src=""></td>
+      <td align="center" colspan="2">
+        <img width="80%" src="">
+      </td>
     </tr>
   </tbody>
 </table>
