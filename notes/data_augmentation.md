@@ -176,8 +176,8 @@ Regular training without any modifications to the dataset.
 * Pretrained Imagenet Weights
 * Inception=>Dropout(0.33)=>Dense(4096)=>Dropout(0.33)=>Softmax()
 * RandAugment: N=3, M=9
-* Epochs: 30
-* Batch Sizes: 128
+* Epochs: 30, 70
+* Batch Sizes: 128, 128
 <table>
   <thead>
     <tr>
@@ -191,16 +191,19 @@ Regular training without any modifications to the dataset.
       </td>
     </tr>
     <tr>
-      <td align="center">
-        <img width="60%" src="https://user-images.githubusercontent.com/480644/134619777-162440ae-a61f-4963-8f45-fed2670129a3.png">
+      <td align="right">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134619777-162440ae-a61f-4963-8f45-fed2670129a3.png">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134637712-720c8501-1812-4928-a56f-6c754311db69.png">
       </td>
-      <td align="center">
-        <img width="60%" src="https://user-images.githubusercontent.com/480644/134619857-bfe7ddad-c783-49e5-84c6-d028f65a9e0c.png">
+      <td align="left">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134619857-bfe7ddad-c783-49e5-84c6-d028f65a9e0c.png">
+        <img width="40%" src="https://user-images.githubusercontent.com/480644/134637821-4eea7327-0736-4e6f-87be-a53598ee267c.png">
       </td>
     </tr>
     <tr>
       <td align="center" colspan="2">
         <img width="80%" src="https://user-images.githubusercontent.com/480644/134619675-cc5bdaf6-99a1-47ee-b332-32119c4a0fcb.png">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134637506-cfd3cecc-c0fb-49f4-83e5-1e220bf88c6a.png">
       </td>
     </tr>
   </tbody>
