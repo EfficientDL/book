@@ -218,7 +218,7 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
-## Attempt 6 [Image Size: 224]
+## Attempt 7 [Image Size: 224]
 * Pretrained Imagenet Weights
 * Inception=>Softmax()
 * RandAugment: N=3, M=9
@@ -256,7 +256,7 @@ Regular training without any modifications to the dataset.
   </tbody>
 </table>
 
-## Attempt 6 [MobileNet]
+## Attempt 8 [MobileNet, RandAugment]
 * Pretrained Imagenet Weights
 * MobileNet=>Softmax()
 * RandAugment: N=3, M=9
@@ -289,6 +289,43 @@ Regular training without any modifications to the dataset.
     <tr>
       <td align="center" colspan="2">
         <img width="80%" src="https://user-images.githubusercontent.com/480644/134656540-eaef7c3d-9da0-4b67-98bd-9a1d7a207d63.png">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Attempt 9 [MobileNet]
+* Pretrained Imagenet Weights
+* MobileNet=>Softmax()
+* Image Size: 224
+* Epochs: 30
+* Batch Sizes: 128
+<table>
+  <thead>
+    <tr>
+      <th align="center" colspan="2">
+        Training Summary
+        <sub><a href="https://www.dropbox.com/sh/nnm27njtbvidewi/AAAovznLVqtBCSvS9Xm8G455a?dl=0">[link]</a></sub>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134757907-1bcf23a5-70d0-4008-8753-383a432c8cdc.png">
+      </td>
+      <td align="center">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134757971-aa12f65d-ca38-4fa1-a94b-ff4d68df2517.png">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134757876-f18a4b40-66c2-4c2b-a80d-b1d1f3fcce1d.png">
       </td>
     </tr>
   </tbody>
