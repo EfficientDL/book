@@ -296,9 +296,9 @@ Regular training without any modifications to the dataset.
 
 ## Attempt 9 [MobileNet]
 * Pretrained Imagenet Weights
-* MobileNet=>Softmax()
+* MobileNet=>Dropout(0.2)=>Softmax()
 * Image Size: 224
-* Epochs: 30
+* Epochs: 50
 * Batch Sizes: 128
 <table>
   <thead>
@@ -312,20 +312,44 @@ Regular training without any modifications to the dataset.
   <tbody>
     <tr>
       <td align="center" colspan="2">
-        <img width="80%" src="">
+        <img width="80%" src="https://user-images.githubusercontent.com/480644/134924488-cdca22b1-bcd9-44d6-a3dc-9a5a9719317d.png">
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img width="60%" src="https://user-images.githubusercontent.com/480644/134757907-1bcf23a5-70d0-4008-8753-383a432c8cdc.png">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134925602-d081794e-618d-45b3-b2fa-8d78db8ff292.png">
       </td>
       <td align="center">
-        <img width="60%" src="https://user-images.githubusercontent.com/480644/134757971-aa12f65d-ca38-4fa1-a94b-ff4d68df2517.png">
+        <img width="60%" src="https://user-images.githubusercontent.com/480644/134925732-e5c7396f-cb2a-4c46-9484-d5ba749f881f.png">
       </td>
     </tr>
     <tr>
-      <td align="center" colspan="2">
-        <img width="80%" src="https://user-images.githubusercontent.com/480644/134757876-f18a4b40-66c2-4c2b-a80d-b1d1f3fcce1d.png">
+      <td colspan="2">
+<pre>
+Epoch 46/50
+8/8 [==============================] - 5s 628ms/step - loss: 0.0453 - accuracy: 1.0000 - val_loss: 0.7681 - val_accuracy: 0.8255
+
+Epoch 00046: val_accuracy did not improve from 0.82549
+Epoch 47/50
+8/8 [==============================] - 5s 628ms/step - loss: 0.0445 - accuracy: 1.0000 - val_loss: 0.7649 - val_accuracy: 0.8235
+
+Epoch 00047: val_accuracy did not improve from 0.82549
+Epoch 48/50
+8/8 [==============================] - 5s 629ms/step - loss: 0.0412 - accuracy: 1.0000 - val_loss: 0.7619 - val_accuracy: 0.8265
+
+Epoch 00048: val_accuracy improved from 0.82549 to 0.82647, saving model to chkpt/weights-epoch-48-val_accuracy-0.8265.h5
+Epoch 49/50
+8/8 [==============================] - 5s 632ms/step - loss: 0.0402 - accuracy: 1.0000 - val_loss: 0.7587 - val_accuracy: 0.8235
+
+Epoch 00049: val_accuracy did not improve from 0.82647
+Epoch 50/50
+8/8 [==============================] - 5s 633ms/step - loss: 0.0407 - accuracy: 1.0000 - val_loss: 0.7556 - val_accuracy: 0.8245
+
+Epoch 00050: val_accuracy did not improve from 0.82647
+Uploaded: /mobilenet/chkpt/weights-epoch-48-val_accuracy-0.8265.h5
+49/49 [==============================] - 17s 333ms/step - loss: 0.8872 - accuracy: 0.7835
+Test accuracy: 78.35%
+</pre>
       </td>
     </tr>
   </tbody>
