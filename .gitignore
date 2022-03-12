@@ -1,4 +1,4 @@
 *.zip
 codelabs/fonts
-*py_cache*
+*__py_cache__*
 *.DS_Store*
