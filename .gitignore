@@ -2,3 +2,4 @@
 codelabs/fonts
 *__py_cache__*
 *.DS_Store*
+.ipynb_checkpoints
