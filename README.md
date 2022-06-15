@@ -26,7 +26,7 @@ This book will go through algorithms and techniques used by researchers and engi
 In addition to the pricipal authors (Gaurav and Naresh), several students and industry experts have reviewed the contents of the book, and contributed to it various topics and exercises. We wholeheartedly acknowledge their contributions towards the advancement of this project.
 
 ### Reviewers
-* Dhruv Matani (@dhruvbird)[https://github.com/dhruvbird]
+* Dhruv Matani [@dhruvbird](https://github.com/dhruvbird)
 * Lawrence Moroney (Google)
 * Sayak Paul [@sayakpaul](https://github.com/sayakpaul)
 * Sinduja S
