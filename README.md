@@ -22,3 +22,16 @@ What if you could make your models more efficient: use less resources (model siz
 This book will go through algorithms and techniques used by researchers and engineers at Google Research, Facebook AI Research (FAIR), and other eminent AI labs to train and deploy their models on devices ranging from large server-side machines to tiny microcontrollers. In this book we present a balance of fundamentals as well as practical know-how to fully equip you to go ahead and optimize your model training and deployment workflows such that your models perform as well or better than earlier, with a fraction of resources. We also will present deep dives into popular models, infrastructure, and hardware, along with challenging projects to test your skills.
 </p>
 
+### Collaborations
+In addition to the pricipal authors (Gaurav and Naresh), several students and industry experts have reviewed the contents of the book, and contributed to it various topics and exercises. We wholeheartedly acknowledge their contributions towards the advancement of this project.
+
+### Reviewers
+* Dhruv Matani (@dhruvbird)[https://github.com/dhruvbird]
+* Lawrence Moroney (Google)
+* Sayak Paul [@sayakpaul](https://github.com/sayakpaul)
+* Sinduja S
+* Uroš Lipovšek
+* Vishwesh Ravi Srimali
+
+### Collaborators
+* Xavier [@XanaGA](https://github.com/XanaGA) has contributed PyTorch codelabs.
